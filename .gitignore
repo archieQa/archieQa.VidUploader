@@ -1,0 +1,72 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+*.pid
+*.gz
+*.bak
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Uploads folder for storing video files
+uploads/
+
+# Test files and temp files
+tests/__pycache__/
+test_*.pyc
+tmp/
+*.tmp
+
+# Python dependencies
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+Pipfile
+Pipfile.lock
+
+# FFmpeg cache
+ffmpeg_build/
+
+# Node modules (if applicable for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore coverage reports
+coverage/
+.coverage
+*.cover
+*.coverage
+htmlcov/
+
+# Docker
+*.pid
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# PyCharm-specific
+.idea/

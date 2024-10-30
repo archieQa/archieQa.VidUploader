@@ -1,0 +1,4 @@
+fastapi             # Web framework for handling uploads
+uvicorn             # ASGI server to run FastAPI
+ffmpeg-python       # Python wrapper for FFmpeg, used in video processing
+python-dotenv       # For loading environment variables
